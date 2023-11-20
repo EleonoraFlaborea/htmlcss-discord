@@ -35,6 +35,10 @@ img{
     background-size: contain;
 }
 
+.h-text{
+    padding: 30px 0;
+}
+
 /* Main Header*/
 .related-header{
     width: 15%;
@@ -64,8 +68,7 @@ a{
     background-color: white;
     border-radius: 20px;
     width: 80px;
-    
-    }
+}
 
 /* Secondary Header*/
 
@@ -79,9 +82,22 @@ a{
     text-align: center;
 }
 
-.h-text{
-    padding-top: 50px;
+.btn{
+    background-color: white; 
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
 }
+
+.btn-browser{
+    background-color: black;
+    color: white;
+}
+
+.btn-login{
+    width: 100px;
+}
+
 
 /* Main*/
 
