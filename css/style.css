@@ -39,7 +39,6 @@
 .related-header{
     width: 15%;
     min-height: 40px;
-    border: 2px dashed black;
     align-self: center;
     display: flex;
     justify-content: space-around;
@@ -74,7 +73,6 @@ a{
     color: white;
     width: 50%;
     min-height: 350px;
-    border: 2px dashed black;
     align-self: center;
     align-items: center;
     text-align: center;
@@ -120,7 +118,6 @@ img{
 .large-box{
     width: 60%;
     min-height: 350px;
-    border: 2px dashed black;
     align-self: center;
     align-items: center;
     display: flex;
@@ -132,7 +129,6 @@ img{
     width: 40%;
     min-height: 350px;
     align-self: center;
-    border: 2px dashed black;
     padding-right: 210px;
 }
 
@@ -161,9 +157,9 @@ p{
 .xl-box{
     width: 100%;
     min-height: 550px;
-    border: 2px dashed black;
     align-self: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .out-bottom{
@@ -178,7 +174,6 @@ h2{
 .btn-finale{
     background-color:#8EA1E1;
     color: white;
-    margin-bottom: 100px;
 }
 
 /*Footer*/
@@ -197,7 +192,6 @@ h2{
     background-color: #23272A;
     width: 30%;
     min-height: 350px;
-    border: 2px dashed white;
     align-self: center;
 }
 
@@ -229,14 +223,12 @@ h2{
     min-height: 350px;
     align-self: center;
     display: flex;
-    font-size: 10px;
-    
+    font-size: 15px;
 }
 
 .f-prodotto{
     width: 25%;
     min-height: 350px;
-    border: 2px dashed white;
     align-self: center;
     align-items: center;
     color: white;
@@ -253,7 +245,7 @@ h2{
 }
 
 .f-info{
-    background-color: #7FFED4;
+    background-color: #23272A;
     width: 100%;
     align-self: flex-end;
     min-height: 70px;
@@ -262,15 +254,8 @@ h2{
     align-items: center;
 }
 
-.f-click{
-    background-color: #FEB6C1;
-}
-
 .f-logo{
-    border: 2px dashed black;
+    height: 40px;
+    width: auto;
 }
-
-.f-bottone{
-    border: 2px dashed black;
-}
-
+ 
