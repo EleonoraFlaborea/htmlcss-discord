@@ -1,0 +1,188 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Generics*/
+
+/*Utils*/
+
+/* Header*/
+.main-header{
+    min-height: 80px;
+    background-color: #ADD8E7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondary-header{
+    min-height: 400px;
+    background-color: #01008B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Main Header*/
+.related-header{
+    background-color: #DAA51F;
+    width: 15%;
+    min-height: 40px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
+
+} 
+
+.h-link{
+    flex-grow: 1;
+}
+
+.h-logo{
+    margin-left: 300px ;
+}
+
+.h-login{
+    margin-right: 300px; 
+    }
+
+/* Secondary Header*/
+
+.item-header{
+    background-color: #EE82EE;
+    width: 50%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
+}
+
+/* Main*/
+
+.main-card{
+    min-height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+ 
+.secondary-card{
+    background-color: #D3D3D3;
+}
+
+.large-box{
+    background-color: #1F90FF;
+    width: 60%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    align-items: center;
+    
+}
+
+.small-box{
+    background-color: #FEC0CB;
+    width: 40%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    
+}
+
+/* Outline-Card*/
+.outline-card{
+    min-height: 600px;
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.xl-box{
+    background-color: #238B23;
+    width: 100%;
+    min-height: 550px;
+    border: 2px dashed black;
+    align-self: center;
+}
+
+/*Footer*/
+
+.main-footer{
+    background-color: #23272A;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 2px;
+}
+
+.f-contatti{
+    background-color: #F08080;
+    width: 30%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+}
+
+.f-card{
+    background-color: #20B2AA;
+    width: 70%;
+    min-height: 350px;
+    border: 2px dashed black;
+    align-self: center;
+    display: flex;
+   
+}
+
+.f-prodotto{
+    width: 25%;
+    min-height: 350px;
+    border: 2px dashed white;
+    align-self: center;
+    align-items: center;
+}
+
+.secondary-footer{
+    background-color: #23272A;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+.f-info{
+    background-color: #7FFED4;
+    width: 100%;
+    align-self: flex-end;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-click{
+    background-color: #FEB6C1;
+}
+
+.f-logo{
+    border: 2px dashed black;
+}
+
+.f-bottone{
+    border: 2px dashed black;
+}
+
