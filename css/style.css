@@ -107,10 +107,15 @@ a{
     justify-content: center;
     padding-left: 300px;
     padding-right: 300px;
+    padding-top: 50px;
 }
  
 .secondary-card{
     background-color: #D3D3D3;
+}
+
+img{
+    width: 500px;
 }
 
 .large-box{
@@ -119,6 +124,9 @@ a{
     border: 2px dashed black;
     align-self: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .small-box{
@@ -126,15 +134,19 @@ a{
     min-height: 350px;
     align-self: center;
     border: 2px dashed black;
+    padding-right: 210px;
 }
 
 .m-title{
     color: #23272A;
-    font-size: 40px;
-    padding-bottom: 20px;
-    margin-top: -20px;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
+p{
+    line-height: 1.5;
+}
 
 /* Outline-Card*/
 .outline-card{
