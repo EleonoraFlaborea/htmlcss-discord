@@ -64,17 +64,23 @@ a{
     background-color: white;
     border-radius: 20px;
     width: 80px;
+    
     }
 
 /* Secondary Header*/
 
-.item-header{
-    background-color: #EE82EE;
+.title-header{
+    color: white;
     width: 50%;
     min-height: 350px;
     border: 2px dashed black;
     align-self: center;
     align-items: center;
+    text-align: center;
+}
+
+.h-title{
+    
 }
 
 /* Main*/
