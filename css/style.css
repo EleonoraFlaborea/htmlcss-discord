@@ -189,27 +189,48 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 50px 300px;
     margin-bottom: 2px;
 }
 
 .f-contatti{
-    background-color: #F08080;
+    background-color: #23272A;
     width: 30%;
     min-height: 350px;
-    border: 2px dashed black;
+    border: 2px dashed white;
     align-self: center;
 }
 
+.color-v{
+    color: #8EA1E1 
+}
+
+.flag{
+    width: 30px;
+}
+
+.f-option{
+    margin-top: 20px;
+    vertical-align: middle;
+    background-color: #23272A;
+    color: white;
+}
+
+.f-symbols{
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+
 .f-card{
-    background-color: #20B2AA;
+    background-color: #23272A;
     width: 70%;
     min-height: 350px;
-    border: 2px dashed black;
     align-self: center;
     display: flex;
-   
+    font-size: 10px;
+    
 }
 
 .f-prodotto{
@@ -218,6 +239,7 @@ h2{
     border: 2px dashed white;
     align-self: center;
     align-items: center;
+    color: white;
 }
 
 .secondary-footer{
