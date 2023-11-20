@@ -69,7 +69,7 @@ a{
 
 /* Secondary Header*/
 
-.title-header{
+.h-title{
     color: white;
     width: 50%;
     min-height: 350px;
@@ -79,8 +79,8 @@ a{
     text-align: center;
 }
 
-.h-title{
-    
+.h-text{
+    padding-top: 50px;
 }
 
 /* Main*/
