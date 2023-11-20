@@ -65,7 +65,7 @@ a{
     margin-right: 300px; 
     background-color: white;
     border-radius: 20px;
-    width: 80px;
+    width: 100px;
 }
 
 /* Secondary Header*/
@@ -92,10 +92,6 @@ a{
     color: white;
 }
 
-.btn-login{
-    width: 100px;
-}
-
 
 /* Main*/
 
@@ -111,13 +107,16 @@ a{
 }
  
 .secondary-card{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 img{
     width: 500px;
 }
 
+.large-img{
+    width: 800px;
+}
 .large-box{
     width: 60%;
     min-height: 350px;
@@ -151,7 +150,7 @@ p{
 /* Outline-Card*/
 .outline-card{
     min-height: 600px;
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -160,11 +159,26 @@ p{
 }
 
 .xl-box{
-    background-color: #238B23;
     width: 100%;
     min-height: 550px;
     border: 2px dashed black;
     align-self: center;
+    text-align: center;
+}
+
+.out-bottom{
+    background-image: url(../img/stars.svg);
+    text-align: center;
+}
+
+h2{
+    padding: 20px 0;
+}
+
+.btn-finale{
+    background-color:#8EA1E1;
+    color: white;
+    margin-bottom: 100px;
 }
 
 /*Footer*/
