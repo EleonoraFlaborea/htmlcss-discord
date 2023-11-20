@@ -21,10 +21,6 @@
     justify-content: center;
 }
 
-img{
-    height: 40px;
-    width: auto;
-}
 
 .secondary-header{
     height: 700px;
@@ -61,6 +57,8 @@ a{
 
 .h-logo{
     margin-left: 300px ;
+    height: 40px;
+    width: auto;
 }
 
 .btn-login{
@@ -116,23 +114,27 @@ a{
 }
 
 .large-box{
-    background-color: #1F90FF;
     width: 60%;
     min-height: 350px;
     border: 2px dashed black;
     align-self: center;
     align-items: center;
-    
 }
 
 .small-box{
-    background-color: #FEC0CB;
     width: 40%;
     min-height: 350px;
-    border: 2px dashed black;
     align-self: center;
-    
+    border: 2px dashed black;
 }
+
+.m-title{
+    color: #23272A;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
 
 /* Outline-Card*/
 .outline-card{
