@@ -41,7 +41,6 @@ img{
     min-height: 40px;
     border: 2px dashed black;
     align-self: center;
-    align-self: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,8 +59,11 @@ a{
     margin-left: 300px ;
 }
 
-.h-login{
+.btn-login{
     margin-right: 300px; 
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
     }
 
 /* Secondary Header*/
